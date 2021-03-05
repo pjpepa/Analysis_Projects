@@ -1,4 +1,4 @@
-setwd("C:/Jessica") 
+setwd("C:/Users/#/Downloads") 
 #Working Directory will need to be wherever Data Sets have been loaded to
 
 library(readxl)
@@ -6,8 +6,8 @@ library(readr)
 library(tidyverse)
 library(caret)
 
-Bachelor_Historical <- read_excel("C:/Jessica/Bachelor Data Set_final.xlsx")
-Bachelor_Current <- read_excel("C:/Jessica/Bachelor Data Set_Current.xlsx")
+Bachelor_Historical <- read_excel("C:/Users/#/Downloads/Bachelor Data Set_final.xlsx")
+Bachelor_Current <- read_excel("C:/Users/#/Downloads/Bachelor Data Set_Current.xlsx")
 
 Bachelor_Historical_x <- 
   Bachelor_Historical %>%
